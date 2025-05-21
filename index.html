@@ -1,60 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>README - Personal Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neo Stilson</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background-color: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
       color: #333;
     }
-    h1 {
-      color: #007acc;
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
     }
-    code {
-      background-color: #eee;
-      padding: 2px 4px;
-      border-radius: 3px;
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #61dafb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #ccc;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
     }
   </style>
 </head>
 <body>
 
-  <h1>📄 Personal Website - README</h1>
+  <header>
+    <h1>Neo Stilson</h1>
+    <p>Aerospace Engineer | Researcher | Creator</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <p>This is a simple personal website project to showcase my portfolio, resume, and blog.</p>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Neo Stilson, a passionate aerospace engineer with interests in spacecraft dynamics, control systems, and creative problem-solving. I enjoy blending engineering with innovation to push boundaries in technology and exploration.</p>
+    </section>
 
-  <h2>📁 Features</h2>
-  <ul>
-    <li>Responsive layout</li>
-    <li>Project showcase section</li>
-    <li>Contact form (static or email service)</li>
-    <li>Custom domain support</li>
-  </ul>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Project 5d:</strong> Swarm Attitude Control for CubeSats</li>
+        <li><strong>PID vs LQR:</strong> Comparative Study in Spacecraft Stability</li>
+        <li><strong>Numerical Integrator Suite:</strong> MATLAB tools for orbital simulation</li>
+      </ul>
+    </section>
 
-  <h2>🚀 Getting Started</h2>
-  <p>To run this website locally:</p>
-  <pre><code>git clone https://github.com/yourusername/yourwebsite.git
-cd yourwebsite
-open index.html</code></pre>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:neo@example.com">neo@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </section>
+  </main>
 
-  <h2>🛠 Technologies Used</h2>
-  <ul>
-    <li>HTML5</li>
-    <li>CSS3</li>
-    <li>JavaScript (optional)</li>
-    <li>Hosted with GitHub Pages / Netlify / Vercel</li>
-  </ul>
-
-  <h2>🔗 Live Demo</h2>
-  <p>Visit the live version at: <a href="https://yourusername.github.io">yourusername.github.io</a></p>
-
-  <h2>📬 Contact</h2>
-  <p>Email: you@example.com</p>
+  <footer>
+    &copy; 2025 Neo Stilson. All rights reserved.
+  </footer>
 
 </body>
 </html>
